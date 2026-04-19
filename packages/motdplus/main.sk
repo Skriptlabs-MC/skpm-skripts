@@ -1,0 +1,7 @@
+on join:
+    set join message to "&8[&a+&8] &f%player%"
+    send "&6&m------------------------------" to player
+    send "&eWelcome, &f%player%&e!" to player
+    send "&7Use &f/help &7to see available commands." to player
+    send "&7Use &f/spawn &7to return to spawn quickly." to player
+    send "&6&m------------------------------" to player

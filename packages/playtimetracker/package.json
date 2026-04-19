@@ -1,0 +1,27 @@
+{
+  "name": "playtimetracker",
+  "displayname": "Playtime Tracker",
+  "version": "1.0.0",
+  "description": "Tracks cumulative player playtime across sessions and displays it through an easy command.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/playtimetracker",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/playtimetracker.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/playtimetracker1.png",
+      "https://cdn.skriptpacks.dev/ss/playtimetracker2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["stats", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 2,
+    "lastScan": "2026-04-19"
+  }
+}

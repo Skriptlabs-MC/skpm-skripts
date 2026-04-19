@@ -1,0 +1,27 @@
+{
+  "name": "afkmanager",
+  "displayname": "AFK Manager",
+  "version": "1.0.0",
+  "description": "Automatically marks players as AFK after inactivity and removes AFK status when they move again.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/afkmanager",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/afkmanager.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/afkmanager1.png",
+      "https://cdn.skriptpacks.dev/ss/afkmanager2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["moderation", "chat", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 2,
+    "lastScan": "2026-04-19"
+  }
+}

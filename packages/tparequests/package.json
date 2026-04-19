@@ -1,0 +1,27 @@
+{
+  "name": "tparequests",
+  "displayname": "TPA Requests",
+  "version": "1.0.0",
+  "description": "A clean teleport request system where players can request teleports and targets can accept or deny safely.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/tparequests",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/tparequests.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/tparequests1.png",
+      "https://cdn.skriptpacks.dev/ss/tparequests2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["teleport", "social", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 4,
+    "lastScan": "2026-04-19"
+  }
+}

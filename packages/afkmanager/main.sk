@@ -1,0 +1,23 @@
+on join:
+    set {afk.lastmove::%uuid of player%} to now
+    delete {afk.state::%uuid of player%}
+
+on move:
+    set {afk.lastmove::%uuid of player%} to now
+    if {afk.state::%uuid of player%} is true:
+        delete {afk.state::%uuid of player%}
+        send "&aYou are no longer AFK."
+        broadcast "&7%player% is no longer AFK."
+
+every 1 minute:
+    loop all players:
+        set {_last} to {afk.lastmove::%uuid of loop-player%}
+        if {_last} is not set:
+            set {afk.lastmove::%uuid of loop-player%} to now
+            next loop
+
+        if difference between now and {_last} >= 5 minutes:
+            if {afk.state::%uuid of loop-player%} is not true:
+                set {afk.state::%uuid of loop-player%} to true
+                send "&eYou are now AFK." to loop-player
+                broadcast "&7%loop-player% is now AFK."

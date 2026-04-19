@@ -1,0 +1,11 @@
+every 10 minutes:
+    broadcast "&eGround item cleanup will run in 10 seconds."
+    wait 10 seconds
+
+    set {_removed} to 0
+    loop all entities:
+        if loop-entity is dropped item:
+            remove loop-entity
+            add 1 to {_removed}
+
+    broadcast "&aCleanup complete. Removed &f%{_removed}% &adropped items."

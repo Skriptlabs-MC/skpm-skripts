@@ -1,0 +1,40 @@
+command /tpa <player>:
+    description: Request teleport to another player.
+    trigger:
+        if arg-1 is player:
+            if arg-1 is player:
+                send "&cYou cannot send a teleport request to yourself."
+                stop
+
+        set {tpa.request::%uuid of arg-1%} to player
+        send "&aTeleport request sent to &f%arg-1%&a."
+        send "&e%player% wants to teleport to you. Use &f/tpaccept &eor &f/tpdeny&e." to arg-1
+
+command /tpaccept:
+    description: Accept an incoming teleport request.
+    trigger:
+        set {_requester} to {tpa.request::%uuid of player%}
+        if {_requester} is not set:
+            send "&cYou have no pending teleport request."
+            stop
+        if {_requester} is not online:
+            delete {tpa.request::%uuid of player%}
+            send "&cThat player is no longer online."
+            stop
+
+        teleport {_requester} to player
+        send "&aTeleport accepted." to player
+        send "&aYour teleport request was accepted by &f%player%&a." to {_requester}
+        delete {tpa.request::%uuid of player%}
+
+command /tpdeny:
+    description: Deny an incoming teleport request.
+    trigger:
+        set {_requester} to {tpa.request::%uuid of player%}
+        if {_requester} is not set:
+            send "&cYou have no pending teleport request."
+            stop
+        if {_requester} is online:
+            send "&cYour teleport request was denied by &f%player%&c." to {_requester}
+        delete {tpa.request::%uuid of player%}
+        send "&eTeleport request denied."

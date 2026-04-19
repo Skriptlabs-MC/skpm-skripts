@@ -1,0 +1,27 @@
+{
+  "name": "starterkit",
+  "displayname": "Starter Kit",
+  "version": "1.0.0",
+  "description": "Gives each player a one-time starter kit on their first join so new players can begin survival quickly.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/starterkit",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/starterkit.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/starterkit1.png",
+      "https://cdn.skriptpacks.dev/ss/starterkit2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["survival", "utility", "newplayers"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 2,
+    "lastScan": "2026-04-19"
+  }
+}

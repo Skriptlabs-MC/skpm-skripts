@@ -1,0 +1,7 @@
+on first join:
+    send "&aWelcome to the server, %player%!" to player
+    give stone sword of unbreaking 1 to player
+    give stone pickaxe of efficiency 1 to player
+    give 32 cooked beef to player
+    give 16 torches to player
+    send "&eYou received a one-time starter kit. Good luck!" to player
