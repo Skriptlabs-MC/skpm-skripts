@@ -3,7 +3,8 @@ command /setwarp <text>:
     description: Create or update a warp.
     trigger:
         set {warp.location::%arg-1%} to location of player
-        add arg-1 to {warp.list::*}
+        if arg-1 is not in {warp.list::*}:
+            add arg-1 to {warp.list::*}
         send "&aWarp &f%arg-1% &aset."
 
 command /warp <text>:

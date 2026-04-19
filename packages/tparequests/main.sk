@@ -2,9 +2,8 @@ command /tpa <player>:
     description: Request teleport to another player.
     trigger:
         if arg-1 is player:
-            if arg-1 is player:
-                send "&cYou cannot send a teleport request to yourself."
-                stop
+            send "&cYou cannot send a teleport request to yourself."
+            stop
 
         set {tpa.request::%uuid of arg-1%} to player
         send "&aTeleport request sent to &f%arg-1%&a."
