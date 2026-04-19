@@ -1,0 +1,20 @@
+command /sethome:
+    description: Set your home location.
+    trigger:
+        set {home::%uuid of player%} to location of player
+        send "&aHome set!"
+
+command /home:
+    description: Teleport to your home.
+    trigger:
+        if {home::%uuid of player%} is not set:
+            send "&cYou have not set a home yet."
+            stop
+        teleport player to {home::%uuid of player%}
+        send "&aTeleported to your home."
+
+command /delhome:
+    description: Delete your home location.
+    trigger:
+        delete {home::%uuid of player%}
+        send "&eYour home has been removed."

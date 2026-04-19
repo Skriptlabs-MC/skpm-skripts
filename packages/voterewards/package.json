@@ -1,0 +1,27 @@
+{
+  "name": "voterewards",
+  "displayname": "Vote Rewards",
+  "version": "1.0.0",
+  "description": "Provides a claim command with a cooldown and random reward pool for vote-style reward redemption.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/voterewards",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/voterewards.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/voterewards1.png",
+      "https://cdn.skriptpacks.dev/ss/voterewards2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["rewards", "economy", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 3,
+    "lastScan": "2026-04-19"
+  }
+}

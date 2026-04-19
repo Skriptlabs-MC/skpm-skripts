@@ -1,0 +1,25 @@
+command /votereward:
+    description: Claim a periodic vote-style reward.
+    trigger:
+        set {_now} to now
+        set {_last} to {vote.last::%uuid of player%}
+
+        if {_last} is set:
+            set {_elapsed} to difference between {_now} and {_last}
+            if {_elapsed} < 12 hours:
+                set {_remaining} to 12 hours - {_elapsed}
+                send "&cYou can claim your next vote reward in &f%{_remaining}%&c."
+                stop
+
+        set {vote.last::%uuid of player%} to {_now}
+        set {_reward} to random integer between 1 and 3
+
+        if {_reward} is 1:
+            give 8 diamonds to player
+            send "&aReward claimed: &f8 Diamonds"
+        else if {_reward} is 2:
+            give 16 golden carrots to player
+            send "&aReward claimed: &f16 Golden Carrots"
+        else:
+            give 2 experience bottles to player
+            send "&aReward claimed: &f2 Experience Bottles"

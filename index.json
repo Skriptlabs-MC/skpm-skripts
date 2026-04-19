@@ -1,0 +1,82 @@
+{
+  "dailyreward": {
+    "version": "1.0.0",
+    "name": "Daily Reward",
+    "short": "Lets players claim a once-per-day starter reward",
+    "logo": "https://cdn.skriptpacks.dev/logos/dailyreward.png",
+    "tags": ["economy", "rewards", "utility"],
+    "url": "/packages/dailyreward"
+  },
+  "homesystem": {
+    "version": "1.0.0",
+    "name": "Home System",
+    "short": "Simple sethome, home, and delhome commands",
+    "logo": "https://cdn.skriptpacks.dev/logos/homesystem.png",
+    "tags": ["teleport", "utility"],
+    "url": "/packages/homesystem"
+  },
+  "tparequests": {
+    "version": "1.0.0",
+    "name": "TPA Requests",
+    "short": "Adds player teleport requests with accept and deny",
+    "logo": "https://cdn.skriptpacks.dev/logos/tparequests.png",
+    "tags": ["teleport", "social", "utility"],
+    "url": "/packages/tparequests"
+  },
+  "starterkit": {
+    "version": "1.0.0",
+    "name": "Starter Kit",
+    "short": "Gives new players a balanced one-time kit",
+    "logo": "https://cdn.skriptpacks.dev/logos/starterkit.png",
+    "tags": ["survival", "utility", "newplayers"],
+    "url": "/packages/starterkit"
+  },
+  "autocleanup": {
+    "version": "1.0.0",
+    "name": "Auto Cleanup",
+    "short": "Removes dropped items on a timer to reduce lag",
+    "logo": "https://cdn.skriptpacks.dev/logos/autocleanup.png",
+    "tags": ["performance", "utility"],
+    "url": "/packages/autocleanup"
+  },
+  "motdplus": {
+    "version": "1.0.0",
+    "name": "MOTD Plus",
+    "short": "Sends a clean welcome message and tip to players",
+    "logo": "https://cdn.skriptpacks.dev/logos/motdplus.png",
+    "tags": ["chat", "utility"],
+    "url": "/packages/motdplus"
+  },
+  "voterewards": {
+    "version": "1.0.0",
+    "name": "Vote Rewards",
+    "short": "Lets players claim periodic vote-style rewards",
+    "logo": "https://cdn.skriptpacks.dev/logos/voterewards.png",
+    "tags": ["rewards", "economy", "utility"],
+    "url": "/packages/voterewards"
+  },
+  "playtimetracker": {
+    "version": "1.0.0",
+    "name": "Playtime Tracker",
+    "short": "Tracks total playtime and shows it with a command",
+    "logo": "https://cdn.skriptpacks.dev/logos/playtimetracker.png",
+    "tags": ["stats", "utility"],
+    "url": "/packages/playtimetracker"
+  },
+  "afkmanager": {
+    "version": "1.0.0",
+    "name": "AFK Manager",
+    "short": "Automatically marks inactive players as AFK",
+    "logo": "https://cdn.skriptpacks.dev/logos/afkmanager.png",
+    "tags": ["moderation", "chat", "utility"],
+    "url": "/packages/afkmanager"
+  },
+  "warpsystem": {
+    "version": "1.0.0",
+    "name": "Warp System",
+    "short": "Creates and manages public warps with commands",
+    "logo": "https://cdn.skriptpacks.dev/logos/warpsystem.png",
+    "tags": ["teleport", "utility", "admin"],
+    "url": "/packages/warpsystem"
+  }
+}

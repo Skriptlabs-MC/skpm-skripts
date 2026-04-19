@@ -1,0 +1,17 @@
+command /daily:
+    description: Claim your daily reward.
+    trigger:
+        set {_now} to now
+        set {_last} to {daily.last::%uuid of player%}
+
+        if {_last} is set:
+            set {_elapsed} to difference between {_now} and {_last}
+            if {_elapsed} < 24 hours:
+                set {_remaining} to 24 hours - {_elapsed}
+                send "&cYou already claimed your daily reward. Time left: &f%{_remaining}%"
+                stop
+
+        set {daily.last::%uuid of player%} to {_now}
+        give 5 diamonds to player
+        give 3 golden apples to player
+        send "&aYou claimed your daily reward!"

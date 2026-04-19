@@ -1,0 +1,27 @@
+{
+  "name": "motdplus",
+  "displayname": "MOTD Plus",
+  "version": "1.0.0",
+  "description": "Enhances player joins with a friendly MOTD, useful commands, and configurable welcome styling.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/motdplus",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/motdplus.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/motdplus1.png",
+      "https://cdn.skriptpacks.dev/ss/motdplus2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["chat", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 1,
+    "lastScan": "2026-04-19"
+  }
+}

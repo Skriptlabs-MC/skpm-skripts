@@ -1,0 +1,27 @@
+{
+  "name": "dailyreward",
+  "displayname": "Daily Reward",
+  "version": "1.0.0",
+  "description": "A simple daily reward Skript that allows players to claim a reward once every 24 hours, with clear cooldown feedback and configurable rewards.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/dailyreward",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/dailyreward.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/dailyreward1.png",
+      "https://cdn.skriptpacks.dev/ss/dailyreward2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["economy", "rewards", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 3,
+    "lastScan": "2026-04-19"
+  }
+}

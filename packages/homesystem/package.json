@@ -1,0 +1,27 @@
+{
+  "name": "homesystem",
+  "displayname": "Home System",
+  "version": "1.0.0",
+  "description": "A lightweight home system with commands to set, teleport to, and delete a personal home location for each player.",
+  "author": "copilot-agent",
+  "website": "https://skriptpacks.dev/homesystem",
+  "media": {
+    "logo": "https://cdn.skriptpacks.dev/logos/homesystem.png",
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://cdn.skriptpacks.dev/ss/homesystem1.png",
+      "https://cdn.skriptpacks.dev/ss/homesystem2.png"
+    ]
+  },
+  "depends": [],
+  "pluginDepends": {},
+  "skript": ">=2.7",
+  "tags": ["teleport", "utility"],
+  "minServer": "1.20",
+  "license": "MIT",
+  "security": {
+    "status": "verified",
+    "risk": 2,
+    "lastScan": "2026-04-19"
+  }
+}
